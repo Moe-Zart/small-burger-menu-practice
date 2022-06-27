@@ -1,0 +1,44 @@
+.fa-bars{
+    font-size: 60px;
+}
+nav{
+    background-color: bisque;
+}
+#home{
+    background-color: rgb(194, 253, 234);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.open-menu .open-menu{
+    visibility: hidden;
+}
+.open-menu .backdrop{
+   visibility: visible;
+}
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+.fa-times{
+    font-size: 60px;
+    color: white;
+}
+.menu-open .backdrop-2{
+    visibility: visible;
+
+}
+
+.backdrop-2{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    transition: visibility 1s ease;
+}
